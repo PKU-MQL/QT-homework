@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SetWindow</class>
+ <widget class="QWidget" name="SetWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>960</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="pushButtonBack">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>60</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回是吗</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelplayer1">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>400</y>
+     <width>101</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/image/player1.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelplayer2">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>400</y>
+     <width>101</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/image/player2.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonBegin">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>700</y>
+     <width>160</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>开始游戏！</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>500</y>
+     <width>200</width>
+     <height>150</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>请选择你的角色</string>
+   </property>
+   <widget class="QRadioButton" name="radioButton11">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>115</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>IKUN</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton12">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>60</y>
+      <width>115</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>郭神</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton13">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>90</y>
+      <width>115</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>路人甲</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton14">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>120</y>
+      <width>115</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>绿头鸭</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>500</y>
+     <width>200</width>
+     <height>150</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>请选择你的角色</string>
+   </property>
+   <widget class="QRadioButton" name="radioButton21">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>115</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>IKUN</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton22">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>60</y>
+      <width>115</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>郭神</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton23">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>90</y>
+      <width>115</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>路人甲</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton24">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>120</y>
+      <width>115</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>绿头鸭</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGraphicsView" name="BackGround">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>960</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/image/6.png);</string>
+   </property>
+  </widget>
+  <zorder>BackGround</zorder>
+  <zorder>pushButtonBack</zorder>
+  <zorder>labelplayer1</zorder>
+  <zorder>labelplayer2</zorder>
+  <zorder>pushButtonBegin</zorder>
+  <zorder>groupBox</zorder>
+  <zorder>groupBox_2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
