@@ -3,6 +3,9 @@
 
 #include <QWidget>
 #include <QPushButton>
+#include <QButtonGroup>
+
+#include <QtDebug>
 #include "mylabel.h"
 namespace Ui {
 class SetWindow;
@@ -24,8 +27,12 @@ public slots:
     void init();
     void ToMain();
     void ToGame();
+    void RecvPlayer1(int id);
+    void RecvPlayer2(int id);
 private:
     Ui::SetWindow *ui;
+    QButtonGroup *m_player1;
+    QButtonGroup *m_player2;
     //QPushButton* backButton;
     //QLabel *Showlabel;//界面说明
     //myLabel* SetWindow_backgroud;

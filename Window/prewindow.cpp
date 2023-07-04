@@ -1,5 +1,6 @@
 #include "prewindow.h"
 #include "setwindow.h"
+#include <QDebug>
 //Prelabel
 
 PreWindow::PreWindow(QWidget *parent) : QWidget(parent)
@@ -53,6 +54,7 @@ void PreWindow::ALLSHOW(){
 
 void PreWindow::init(){
     //ALLSHOW();
+    qDebug()<<tr("前往设置界面--------");
     m_setwindow->show();
     m_setwindow->init();
 }

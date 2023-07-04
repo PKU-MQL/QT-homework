@@ -15,5 +15,6 @@
         <file>image/player1.png</file>
         <file>image/player2.png</file>
         <file>image/start.png</file>
+        <file>image/badminton_icon.png</file>
     </qresource>
 </RCC>
