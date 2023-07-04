@@ -20,6 +20,11 @@ Widget::Widget(QWidget *parent)
     Showlabel->move(640,100);
 
     setFocus();
+    setFixedSize(1280,960);//重要++设定窗口大小
+    setWindowIcon(QIcon(":/image/badminton_icon.png"));
+    setWindowTitle("火柴人羽毛球");
+    /*setWindowIcon(QIcon("://art/icon.ico"));
+            setWindowTitle("砰碰砰大乱斗");*/
 
     //帮助界面 对象初始化
     m_helpwindow=new Description(this);
@@ -116,7 +121,7 @@ void Widget::ToHelp(){//前往帮助界面
 }
 void Widget::ToPre(){//前往准备界面
     ALLHIDE();
-    qDebug()<<tr("前往准备界面");
+    qDebug()<<tr("前往准备界面--------");
     m_prewindow->show();
     m_prewindow->init();
 }

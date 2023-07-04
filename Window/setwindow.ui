@@ -32,7 +32,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>返回是吗</string>
+    <string>返回</string>
    </property>
   </widget>
   <widget class="QLabel" name="labelplayer1">
@@ -220,7 +220,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-image: url(:/image/6.png);</string>
+    <string notr="true">background-image: url(:/image/7.png);</string>
    </property>
   </widget>
   <zorder>BackGround</zorder>
