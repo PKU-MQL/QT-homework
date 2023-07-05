@@ -4,7 +4,7 @@
 #include <QWidget>
 #include <QPushButton>
 #include <QButtonGroup>
-
+#include <QKeyEvent>
 #include <QtDebug>
 #include "mylabel.h"
 namespace Ui {
@@ -18,17 +18,19 @@ class SetWindow : public QWidget
 public:
     explicit SetWindow(QWidget *parent = nullptr);
     ~SetWindow();
-
+    void init();
 signals:
     void signal_BacktoMain();
     void signal_ToGame();
 
 public slots:
-    void init();
+
     void ToMain();
     void ToGame();
     void RecvPlayer1(int id);
     void RecvPlayer2(int id);
+    void keyPressEvent(QKeyEvent *event) override;
+
 private:
     Ui::SetWindow *ui;
     QButtonGroup *m_player1;

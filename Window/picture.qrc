@@ -16,5 +16,13 @@
         <file>image/player2.png</file>
         <file>image/start.png</file>
         <file>image/badminton_icon.png</file>
+        <file>image/badminton_default.png</file>
+        <file>image/badminton_red.png</file>
+        <file>image/player_default.png</file>
+        <file>image/racket.png</file>
+        <file>image/test_background.png</file>
+        <file>image/test_background_2_720p.png</file>
+        <file>image/test_background_720p.png</file>
+        <file>image/OIP.jpg</file>
     </qresource>
 </RCC>

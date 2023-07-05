@@ -15,6 +15,7 @@ Description::~Description()
 }
 
 void Description::init(){
+    setFocus();
     ui->pushButton->show();
     ui->textEdit->show();
 }
@@ -22,5 +23,6 @@ void Description::init(){
 void Description::ToMain(){
     ui->pushButton->hide();
     ui->textEdit->hide();
+    this->hide();
     emit BacktoMain();
 }

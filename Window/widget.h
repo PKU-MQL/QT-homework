@@ -15,7 +15,9 @@
 class Widget : public QWidget
 {
     Q_OBJECT
-
+public slots:
+    void keyPressEvent(QKeyEvent *event) override;
+    //void keyReleaseEvent(QKeyEvent *event) override;
 public:
     Widget(QWidget *parent = NULL);
     ~Widget();
@@ -29,11 +31,7 @@ public:
     void ToHelp();
     void ToGame();
 
-    void BackfromPre();
-    void BackformHelp();
-
-    void keyPress(QKeyEvent *ev);
-    void keyRelease(QKeyEvent *ev);
+    void Back();
 private:
     myLabel *mainbg;
 //    QPushButton* quitbutton;
@@ -44,11 +42,10 @@ private:
     myButton* helpbutton;
     QLabel *Showlabel;//界面说明
 
-
     PreWindow* m_prewindow;//准备界面
     PauseWindow* m_pausewindow;//暂停界面
     Description* m_helpwindow;//描述界面
-    GameWindow* m_gamewindow;//游戏界面
+    gamewindow* m_gamewindow;//游戏界面
 
 };
 

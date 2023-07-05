@@ -55,13 +55,15 @@ void PreWindow::ALLSHOW(){
 void PreWindow::init(){
     //ALLSHOW();
     qDebug()<<tr("前往设置界面--------");
+    m_setwindow->setFocus();
     m_setwindow->show();
-    m_setwindow->init();
+//    m_setwindow->init();
 }
 
 void PreWindow::ToMain(){
     //ALLHIDE();
     m_setwindow->hide();
+    this->hide();
     emit signal_BacktoMain();
 }
 
